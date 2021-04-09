@@ -1,4 +1,4 @@
-package com.zhenhao.proxy.dynamicProxy;
+package com.zhenhao.proxy.jdkDynamicProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

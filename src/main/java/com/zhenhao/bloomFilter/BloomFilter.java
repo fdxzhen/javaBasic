@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
 
+/**
+ * 参考文章：https://www.cnblogs.com/xiaobaituyun/p/11011393.html  （代码来源）
+ * https://blog.csdn.net/weixin_42864905/article/details/106692204
+ */
 public class BloomFilter {
     private static final int DEFAULT_SIZE = 2 << 24;//布隆过滤器的比特长度
     private static final int[] seeds = new int[] { 5, 7, 11, 13, 31, 37, 61 };//这里要选取质数，能很好的降低错误率
