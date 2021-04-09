@@ -1,4 +1,4 @@
-package com.zhenhao.proxy;
+package com.zhenhao.proxy.dynamicProxy;
 
 import java.util.HashSet;
 

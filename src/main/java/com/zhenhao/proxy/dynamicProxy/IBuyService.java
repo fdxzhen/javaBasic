@@ -1,4 +1,4 @@
-package com.zhenhao.proxy;
+package com.zhenhao.proxy.dynamicProxy;
 
 public interface IBuyService {
      void buyItem(int userId);

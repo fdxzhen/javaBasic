@@ -1,4 +1,4 @@
-package com.zhenhao.proxy;
+package com.zhenhao.proxy.dynamicProxy;
 
 public class BuyServiceImpl implements  IBuyService {
     @Override
